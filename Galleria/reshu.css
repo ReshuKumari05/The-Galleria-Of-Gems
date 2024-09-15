@@ -1,0 +1,686 @@
+*
+{
+    margin: 0px;
+    font-family: arial;
+    border:border-box;
+
+}
+.navbar
+{   height: 60px;
+    background: lab(150% -400 400);
+
+    
+    background-color: whitesmoke;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/**nav-logo**/
+
+
+.border
+{
+    border: 2px solid transparent;
+}
+.border :hover{
+    border: 2px solid rgb(18, 18, 18);
+
+}
+/**nav-address**/
+.nav-address
+{ height: 50px;
+    width: 100px;
+
+}
+.add-icon
+{
+    display: flex;
+    margin-top: 3px;
+    color: #060606;
+
+}
+.address1
+{
+    color: #070707;
+    font-size: 1rem;
+    margin-left: 8px;
+}
+.address2
+{
+    color: #090909;
+    font-size: 1rem;
+    margin-left: 3px;
+    margin-top: 2px;
+
+}
+/**nav-search**/
+.nav-search
+{   height: 42px;
+    width: 620px;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    margin-top: 4px;
+
+
+}
+.search-select
+{  
+    width: 45px;
+    text-align: center;
+    border: none;
+    background-color: #f4efef;
+    color: rgb(197, 82, 117);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+.search-input
+{
+   
+    width: 100%;
+    color: #e8a4a4;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon
+{
+    width: 45px;
+    background-color: rgb(197, 82, 117);
+    font-size: large;
+    color: #0f1111;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+/**nav-line**/
+.nav-line
+{
+    width: 130px;
+    height: 50px;
+    background-color: #f5e2ef;
+    color: #060606;
+}
+.link1
+{
+    width: 70px;
+    font-size: 10px;
+    color: #050505;
+    margin-top: 5px;
+
+}
+
+.link3
+{
+    color: #0a0a0a;
+    background-color: rgb(197, 82, 117);
+    border:none;
+    border-color: #0f1111;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+/**nav-oreder**/
+.nav-order
+{
+    height: 50px;
+    width: 100px;
+
+}
+.order1
+{
+    font-size: 10px;
+    color: #090909;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+.order2
+{
+    font-size: 13px;
+    font-weight: bolder;
+    color: #0a0a0a;
+   
+}
+/**nav-cart**/
+.nav-cart
+{   height: 50px;
+    width: 80px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carticon
+{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+    margin-right: 4.5cm;
+}
+.cart1
+{
+    color: #0e0e0e;
+    font-size: 15px;
+    font-weight: bolder;
+   margin-top: 17px;
+   margin-right: 3cm;
+   margin-bottom: 4px;
+}
+/**planel**/
+.planel
+{
+    height: 40px;
+    background-color: rgb(197, 82, 117);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+
+}
+.planel-deal
+{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.planel-service
+{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.planel-register
+{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.planel-gift
+{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.planel-sell
+{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.shop1
+{
+   margin-left: 600px;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+/**hero-section**/
+.hero-section
+{
+    height: 800px;
+    background-image: url("Priyaasi-web.webp");
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
+}
+.hero-msg
+{
+    height: 40px;
+    width: 80%;
+    background-color: #FFFFFF;
+    color: #0f1111;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 5px;
+}
+/**shop-section**/
+.shop-section
+{
+    height: 1480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #e2e7ee;
+
+}
+.box
+{
+    border: 2px solid black;
+    height: 450px;
+    width: 23%;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    padding: 10px 0 10px 0;
+   
+}
+.cos-img
+{
+    height: 350px;
+    background-image: url("string-it.webp");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box1
+
+{
+    border: none;
+   
+}
+.content-box1
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box1 p
+{
+    color: blue;
+}
+.elec-img
+{
+    height: 350px;
+    background-image: url("ANKLETS.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.box2
+
+{
+    border: none;
+   
+}
+.content-box2
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box2 p
+{
+    color: blue;
+}
+.sta-img
+{
+    height: 350px;
+    background-image: url("engagement-rings.webp");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box3
+
+{
+    border: none;
+   
+}
+.content-box3
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box3 p
+{
+    color: blue;
+}
+.Gro-img
+{
+    height: 350px;
+    background-image: url("italian-connection.webp");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box4
+
+{
+    border: none;
+   
+}
+.content-box4
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box4 p
+{
+    color: blue;
+}
+.img-5
+{
+    height: 350px;
+    background-image: url("neckpiece.webp");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box5
+
+{
+    border: none;
+   
+}
+.content-box5
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box5 p
+{
+    color: blue;
+}
+.img-6
+{
+    height: 350px;
+    background-image: url("bangles.webp");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box6
+
+{
+    border: none;
+   
+}
+.content-box6
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box6 p
+{
+    color: blue;
+}
+.img-7
+{
+    height: 350px;
+    background-image: url("NP062_5-min.webp");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box7
+
+{
+    border: none;
+   
+}
+.content-box7
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box7 p
+{
+    color: blue;
+}
+.img-8
+{
+    height: 350px;
+    background-image: url("COIN.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box8
+
+{
+    border: none;
+   
+}
+.content-box8
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.content-box8 p
+{
+    color: blue;
+}
+
+
+.movie
+{
+    height: 400px;
+    width: 25%;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    padding: 10px 0 10px 0;
+    
+
+}
+
+.box9
+{
+   border: none;
+
+}
+.img-9
+{   height: 300px;
+    background-image: url("ANKLETS.jpg");
+   background-size: cover;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   animation-name: mymovieanimate;
+   animation-duration: 4s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+}
+.content-box9
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-box9 p{
+    color: blue;
+}
+@keyframes mymovieanimate{
+    from{
+        background-image: url("tanishq.png")
+    }
+    to{
+        background-image: url("tanishq.png");
+    }
+}
+.box9
+{
+   border: none;
+
+}
+.img-10
+{   height: 300px;
+    background-image: url("solitaire.webp");
+   background-size: cover;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   animation-name: mymovieanimate1;
+   animation-duration: 4s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+}
+.content-box10
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-box10 p{
+    color: blue;
+}
+@keyframes mymovieanimate1{
+    from{
+        background-image: url("devotion.webp")
+    }
+    to{
+        background-image: url("devotion.webp");
+    }
+}
+.box10
+{
+   border: none;
+
+}
+.img-11
+{   height: 300px;
+    background-image: url("devotion.webp");
+   background-size: cover;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   animation-name: mymovieanimate2;
+   animation-duration: 4s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+}
+.content-box11
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box11
+{   border: none;
+
+}
+
+.content-box11 p{
+    color: blue;
+}
+@keyframes mymovieanimate2{
+    from{
+        background-image: url("Rivaah-Bride.jpg")
+    }
+    to{
+        background-image: url("Rivaah-Bride.jpg");
+    }
+}
+.foot-panel1
+{
+    height: 50px;
+    background-color: #f1aee8;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.foot-panel1 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.foot-panel2
+{
+    height: 300px;
+    background-color: #ee6fd1;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul 
+{ list-style: none;
+    margin-top: 20px;
+
+}
+ul p
+{
+    font-size: 1rem;
+
+}
+ul li{
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+.foot-panel3
+{   height: 70px;
+    border-top: 2px solid gainsboro ;
+    background-color:  #f1aee8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.logo{
+    background-image: url("amazon-dark-logo-png.png");
+    background-size: cover;
+    height: 50px;
+    width: 80px;
+
+
+}
+.foot-panel4
+{
+    height: 50px;
+    background-color: #f1aee8;
+
+}
+.msg1
+{
+    color: white;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg2
+{
+    color: white;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
